@@ -30,6 +30,8 @@ app.get('/', (req, res) => {
 });
 
 //---------------------------------------------------------------------
-app.listen(serveurPort, () => {
-    console.info(`Server is running on port ${serveurPort}`);
-});
+// app.listen(serveurPort, () => {
+//     console.info(`Server is running on port ${serveurPort}`);
+// });
+
+export default app;
