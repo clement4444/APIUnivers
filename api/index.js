@@ -21,6 +21,10 @@ app.get("/calendrier", (req, res) => {
     res.json(generateCalendrier());
 });
 
+app.get("/test", (req, res) => {
+    res.json({ message: "API is working!" });
+});
+
 
 //-------------------defaut-------------------------------------------
 
