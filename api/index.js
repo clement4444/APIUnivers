@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 
 //toute api
-app.get("/time", (req, res) => {
+app.get("/api/time", (req, res) => {
 
     const date1 = new Date();
     //affiche
@@ -16,19 +16,19 @@ app.get("/time", (req, res) => {
 });
 
 
-app.get("/calendrier", (req, res) => {
+app.get("/api/calendrier", (req, res) => {
     //affiche
     res.json(generateCalendrier());
 });
 
-app.get("/test", (req, res) => {
+app.get("/api/test", (req, res) => {
     res.json({ message: "API is working!" });
 });
 
 
 //-------------------defaut-------------------------------------------
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
     res.send('Hello World !');
 });
 
