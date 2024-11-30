@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/**/*.js",  // Toutes les fonctions serverless dans le répertoire `api`
+      "use": "@vercel/node"  // Utilisation du runtime Node.js de Vercel
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",  // Toutes les requêtes vers /api/ sont gérées par les fonctions serverless
+      "dest": "/api/$1"
+    }
+  ]
+}
