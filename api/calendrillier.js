@@ -16,7 +16,7 @@ const listeMois = {
     septembre: 30,
     octobre: 31,
     novembre: 30,
-    décembre: 31
+    decembre: 31
 };
 
 function attribuerValeurJour(nbJour) {
