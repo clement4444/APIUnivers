@@ -3,7 +3,6 @@ const cors = require('cors');
 const setupAPI = require("./api/setup");
 
 const app = express();
-const PORT = 3000;
 
 // Ajouter le middleware CORS
 app.use(cors());
@@ -24,6 +23,6 @@ app.get('/', (req, res) => {
     res.send(texte);
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
-});
+export default (req, res) => {
+    app(req, res);  // Utilisation de Express pour traiter les requêtes
+};
