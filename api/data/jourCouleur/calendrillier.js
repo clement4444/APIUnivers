@@ -52,7 +52,7 @@ function generateAns(ans, startNbJour) {
     return { calendrilierAns, nextNbJour: nbJour };
 }
 
-export default function generateCalendrier() {
+function generateCalendrier() {
     //calendrier final
     const calendrilier = {};
     //année de départ et fin
@@ -68,3 +68,5 @@ export default function generateCalendrier() {
 
     return calendrilier;
 }
+
+module.exports = generateCalendrier;

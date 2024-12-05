@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "nom": "La Suite Parisienne",
+        "description": "Une chambre au style traditionnel parisien, avec une grande pièce principale lumineuse.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 150,
+        "equipements": [
+            "Wi-Fi",
+            "Salle de bain privée",
+            "Petit-déjeuner inclus",
+            "Vue sur la ville"
+        ],
+        "image_url": "https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg"
+    },
+    {
+        "id": 2,
+        "nom": "La Chambre Moderne",
+        "description": "Décor contemporain et minimaliste avec des tons neutres et vu sur le jardin.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 170,
+        "equipements": [
+            "Wi-Fi",
+            "Climatisation",
+            "Salle de bain privée",
+            "TV connectée"
+        ],
+        "image_url": "https://images.pexels.com/photos/210604/pexels-photo-210604.jpeg"
+    },
+    {
+        "id": 3,
+        "nom": "La Suite Romantique",
+        "description": "Ambiance romantique avec un grand lit confortable et une pièce lumineuse.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 180,
+        "equipements": [
+            "Wi-Fi",
+            "Bain à remous",
+            "Room service",
+            "Vue sur le jardin"
+        ],
+        "image_url": "https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg"
+    },
+    {
+        "id": 4,
+        "nom": "La Chambre Zen",
+        "description": "Décor épuré inspiré du Japon, avec des éléments en bois et un coin méditation.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 160,
+        "equipements": [
+            "Wi-Fi",
+            "Jardin privé",
+            "Salle de bain japonaise",
+            "Espace de méditation"
+        ],
+        "image_url": "https://images.pexels.com/photos/4946767/pexels-photo-4946767.jpeg"
+    },
+    {
+        "id": 5,
+        "nom": "La Chambre Baroque",
+        "description": "Un style riche et baroque, orné de lustres en soie et de meubles en bois somptueux.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 190,
+        "equipements": [
+            "Wi-Fi",
+            "Mini-bar",
+            "Service en chambre",
+            "Salle de bain en marbre"
+        ],
+        "image_url": "https://images.pexels.com/photos/8141962/pexels-photo-8141962.jpeg"
+    },
+    {
+        "id": 6,
+        "nom": "La Suite Nature",
+        "description": "Ambiance apaisante avec des plantes vertes et des matériaux naturels.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 165,
+        "equipements": [
+            "Wi-Fi",
+            "Balcon privé",
+            "Petit-déjeuner bio",
+            "Produits écologiques"
+        ],
+        "image_url": "https://images.pexels.com/photos/9565727/pexels-photo-9565727.jpeg"
+    },
+    {
+        "id": 7,
+        "nom": "La Chambre Industrielle",
+        "description": "Un style loft avec des murs en briques apparentes et un espace bureau.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 175,
+        "equipements": [
+            "Wi-Fi",
+            "TV connectée",
+            "Coffre-fort",
+            "Mini-bar"
+        ],
+        "image_url": "https://images.pexels.com/photos/5824526/pexels-photo-5824526.jpeg"
+    },
+    {
+        "id": 8,
+        "nom": "La Suite Méditerranéenne",
+        "description": "Décor ensoleillé avec des teintes bleues et blanches, rappelant les villas grecques.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 185,
+        "equipements": [
+            "Wi-Fi",
+            "Balcon avec vue",
+            "Climatisation",
+            "Petit-déjeuner méditerranéen"
+        ],
+        "image_url": "https://images.pexels.com/photos/271643/pexels-photo-271643.jpeg"
+    },
+    {
+        "id": 9,
+        "nom": "La Chambre Vuitton",
+        "description": "Chambre de luxe composée de murs en marbre et d'une grande glace des années 50.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 170,
+        "equipements": [
+            "Wi-Fi",
+            "Mini-bar",
+            "Salle de bain en mosaïque",
+            "Room service"
+        ],
+        "image_url": "https://images.pexels.com/photos/27531873/pexels-photo-27531873/free-photo-of-lit-chambre-a-coucher-chambre-luxe.jpeg"
+    },
+    {
+        "id": 10,
+        "nom": "La Suite Scandinave",
+        "description": "Un décor nordique épuré avec des meubles en bois clair et des textiles douillets.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 160,
+        "equipements": [
+            "Wi-Fi",
+            "Climatisation",
+            "Espace de lecture",
+            "Thé et café à volonté"
+        ],
+        "image_url": "https://images.pexels.com/photos/4112556/pexels-photo-4112556.jpeg"
+    },
+    {
+        "id": 11,
+        "nom": "La Suite Victorienne",
+        "description": "Suite moderne, de couleur claire et lumineuse et composée de rideaux épais.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 180,
+        "equipements": [
+            "Wi-Fi",
+            "Salle de bain privée",
+            "Petit-déjeuner inclus",
+            "Vue sur le jardin"
+        ],
+        "image_url": "https://images.pexels.com/photos/6588582/pexels-photo-6588582.jpeg"
+    },
+    {
+        "id": 12,
+        "nom": "La Chambre Jazz",
+        "description": "Un style mélangeant moderne et ancien avec de grands meubles en bois et des couleurs vives.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 175,
+        "equipements": [
+            "Wi-Fi",
+            "Balcon privé",
+            "Petit-déjeuner exotique",
+            "Climatisation"
+        ],
+        "image_url": "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg"
+    },
+    {
+        "id": 13,
+        "nom": "La Suite Classique",
+        "description": "Ambiance classique avec des œuvres d'art encadrées et du mobilier raffiné.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 165,
+        "equipements": [
+            "Wi-Fi",
+            "Service de chambre",
+            "Mini-bar",
+            "Salle de bain avec baignoire"
+        ],
+        "image_url": "https://images.pexels.com/photos/2416932/pexels-photo-2416932.jpeg"
+    },
+    {
+        "id": 14,
+        "nom": "La Chambre Bord de Mer",
+        "description": "Décor apaisant aux tons bleus, rappelant l'atmosphère d'une maison en bord de mer.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 155,
+        "equipements": [
+            "Wi-Fi",
+            "Salle de bain privée",
+            "Petit-déjeuner inclus",
+            "Vue sur le jardin"
+        ],
+        "image_url": "https://images.pexels.com/photos/7166557/pexels-photo-7166557.jpeg"
+    },
+    {
+        "id": 15,
+        "nom": "La Suite Artistique",
+        "description": "Décor artistique avec des œuvres d'art modernes et un design créatif.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 170,
+        "equipements": [
+            "Wi-Fi",
+            "Climatisation",
+            "TV connectée",
+            "Coin bureau"
+        ],
+        "image_url": "https://images.pexels.com/photos/6434611/pexels-photo-6434611.jpeg"
+    },
+    {
+        "id": 16,
+        "nom": "La Chambre Montagne",
+        "description": "Chaleureuse et boisée, idéale pour une ambiance de chalet alpin.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 185,
+        "equipements": [
+            "Wi-Fi",
+            "Cheminée",
+            "Terrasse",
+            "Vue sur le jardin"
+        ],
+        "image_url": "https://images.pexels.com/photos/2062431/pexels-photo-2062431.jpeg"
+    },
+    {
+        "id": 17,
+        "nom": "La Suite Écologique",
+        "description": "Chambre construite avec des matériaux durables et décoration éco-responsable.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 165,
+        "equipements": [
+            "Wi-Fi",
+            "Toilettes sèches",
+            "Produits de bain bio",
+            "Vue sur jardin"
+        ],
+        "image_url": "https://images.pexels.com/photos/9566052/pexels-photo-9566052.jpeg"
+    },
+    {
+        "id": 18,
+        "nom": "La Suite Techno",
+        "description": "Ambiance high-tech avec éclairages LED contrôlés et assistants vocaux.",
+        "emplacement": "Strasbourg, France",
+        "capacite": 2,
+        "prix_par_nuit": 190,
+        "equipements": [
+            "Wi-Fi",
+            "Smart TV",
+            "Contrôle domotique",
+            "Service en chambre"
+        ],
+        "image_url": "https://images.pexels.com/photos/7214471/pexels-photo-7214471.jpeg"
+    }
+]
