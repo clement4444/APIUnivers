@@ -23,6 +23,10 @@ app.get('/', (req, res) => {
     res.send(texte);
 });
 
-export default (req, res) => {
-    app(req, res);  // Utilisation de Express pour traiter les requêtes
-};
+// export default (req, res) => {
+//     app(req, res);  // Utilisation de Express pour traiter les requêtes
+// };
+
+app.listen(3000, () => {
+    console.info('Serveur démarré sur le port 3000');
+});
